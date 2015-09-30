@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import QuickLook
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, QLPreviewControllerDataSource, QLPreviewControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +22,12 @@ class ViewController: UIViewController {
     }
 
     @IBAction func previewAction(sender: AnyObject) {
+        
+        
     }
+    
+
+
 
 }
 

@@ -12,6 +12,8 @@
 		E2E0EE651BBC063900D64695 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2E0EE631BBC063900D64695 /* Main.storyboard */; };
 		E2E0EE671BBC063900D64695 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2E0EE661BBC063900D64695 /* Assets.xcassets */; };
 		E2E0EE6A1BBC063900D64695 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2E0EE681BBC063900D64695 /* LaunchScreen.storyboard */; };
+		E2E0EE731BBC098900D64695 /* Vea Software.docx in Resources */ = {isa = PBXBuildFile; fileRef = E2E0EE711BBC098900D64695 /* Vea Software.docx */; settings = {ASSET_TAGS = (); }; };
+		E2E0EE741BBC098900D64695 /* Vea Software.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E0EE721BBC098900D64695 /* Vea Software.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E2E0EE661BBC063900D64695 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2E0EE691BBC063900D64695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2E0EE6B1BBC063900D64695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2E0EE711BBC098900D64695 /* Vea Software.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Vea Software.docx"; sourceTree = "<group>"; };
+		E2E0EE721BBC098900D64695 /* Vea Software.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vea Software.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				E2E0EE661BBC063900D64695 /* Assets.xcassets */,
 				E2E0EE681BBC063900D64695 /* LaunchScreen.storyboard */,
 				E2E0EE6B1BBC063900D64695 /* Info.plist */,
+				E2E0EE711BBC098900D64695 /* Vea Software.docx */,
+				E2E0EE721BBC098900D64695 /* Vea Software.png */,
 			);
 			path = "Swift2.0 - QuickLookPreviewController";
 			sourceTree = "<group>";
@@ -121,7 +127,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2E0EE731BBC098900D64695 /* Vea Software.docx in Resources */,
 				E2E0EE6A1BBC063900D64695 /* LaunchScreen.storyboard in Resources */,
+				E2E0EE741BBC098900D64695 /* Vea Software.png in Resources */,
 				E2E0EE671BBC063900D64695 /* Assets.xcassets in Resources */,
 				E2E0EE651BBC063900D64695 /* Main.storyboard in Resources */,
 			);
