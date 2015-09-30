@@ -23,7 +23,7 @@ class ViewController: UIViewController, QLPreviewControllerDataSource, QLPreview
 
     @IBAction func previewAction(sender: AnyObject) {
         
-     
+      
     }
     
     func numberOfPreviewItemsInPreviewController(controller: QLPreviewController) -> Int {
