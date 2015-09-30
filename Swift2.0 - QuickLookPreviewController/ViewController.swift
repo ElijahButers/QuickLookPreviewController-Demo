@@ -31,6 +31,13 @@ class ViewController: UIViewController, QLPreviewControllerDataSource, QLPreview
         return 1
     }
     
+    func previewController(controller: QLPreviewController, previewItemAtIndex index: Int) -> QLPreviewItem {
+        
+        let path = NSBundle.mainBundle().pathForResource("Vea Software", ofType: "png")
+        let url = NSURL.fileURLWithPath(path!)
+        
+        return url
+    }
 
 
 }
