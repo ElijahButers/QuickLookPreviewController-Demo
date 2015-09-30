@@ -23,6 +23,9 @@ class ViewController: UIViewController, QLPreviewControllerDataSource, QLPreview
 
     @IBAction func previewAction(sender: AnyObject) {
         
+        let preview = QLPreviewController()
+        preview.dataSource = self
+        self.presentViewController(preview, animated: true, completion: nil)
       
     }
     
